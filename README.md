@@ -1,4 +1,4 @@
-Drupal Theme developed for the [davidruizlopez.es](davidruizlopez.es 'Portfolio web de David Ruiz López') webpage.
+Drupal Theme developed for the [davidruizlopez.es](http://davidruizlopez.es 'Portfolio web de David Ruiz López') webpage.
 ==================================================================================================================
 Them based on [drupalsiete starter theme](https://github.com/sergiocerrutti/drupalsiete "Sergio Cerrutti Drupal starter theme")
 -----
