@@ -1,0 +1,69 @@
+
+name = rfront
+description = Custom theme for @ruizfrontend, developed by @ruizfrontend (based on drupalsiete starter theme: https://github.com/sergiocerrutti/drupalsiete)
+version = 1.0
+core = 7.x
+
+screenshot = img/screenshot.png
+
+
+; THEME SETTINGS
+; ***************************************************************************
+
+features[] = name
+features[] = favicon
+
+
+; CSS
+; ***************************************************************************
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = js/colorbox/colorbox.css
+
+
+; JAVASCRIPT
+; ***************************************************************************
+
+scripts[] = js/scripts.js
+scripts[] = js/colorbox/jquery.colorbox.js
+
+
+; REGIONS
+; ***************************************************************************
+
+regions[page_top] = Page top
+regions[header] = Header
+regions[help] = Help
+regions[highlighted] = Highlighted content
+regions[content] = Main content
+regions[sidebar_first] = Sidebar
+regions[footer] = Footer
+regions[page_bottom] = Page bottom
+
+; CONTEXT LAYOUTS
+; ***************************************************************************
+
+layouts[default][name] = "Left sidebar (default)"
+layouts[default][description] = "Content with left sidebar"
+layouts[default][template] = "templates/layout/page"
+layouts[default][regions][] = "page_top"
+layouts[default][regions][] = "header"
+layouts[default][regions][] = "help"
+layouts[default][regions][] = "highlighted"
+layouts[default][regions][] = "sidebar_first"
+layouts[default][regions][] = "content"
+layouts[default][regions][] = "footer"
+layouts[default][regions][] = "page_bottom"
+
+layouts[front][name] = "Front (default)"
+layouts[front][description] = "Front page"
+layouts[front][template] = "templates/layout/page-front"
+layouts[front][regions][] = "page_top"
+layouts[front][regions][] = "header"
+layouts[front][regions][] = "help"
+layouts[front][regions][] = "highlighted"
+layouts[front][regions][] = "sidebar_first"
+layouts[front][regions][] = "content"
+layouts[front][regions][] = "footer"
+layouts[front][regions][] = "page_bottom"
